@@ -1,0 +1,21 @@
+{
+  "name": "discord-bot-fia",
+  "version": "1.0.0",
+  "description": "Discord bot for automatic slowmode on F1 racing incident forums",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "bot", "f1", "racing", "slowmode", "moderation"],
+  "author": "FIA Bot",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1"
+  }
+}
